@@ -1,7 +1,3 @@
----
-title: Basic Commands
----
-
 Here are the list of commands to use in Django.
 #### Some Basic Commands
 
