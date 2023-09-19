@@ -4,7 +4,7 @@
 1. **Analog**
 2. **Digital**
 
-![[What-are-Analog-and-Digital-Signals.webp | center | 256]]
+![[analog-digital.png | 500]]
 
 - **Analog** signal is characterized by *Continuous Mathematic function*. When input change from one to other, it moving through all possible intermediate values
 - **Digital** signal has a *fixed set of valid levels*. Instantaneous move from one valid level to another
@@ -15,7 +15,7 @@ we will talk about signal in 2 types of domain;
 1. **Time**  
 2. **Frequency**
 
-![[frequency_domain.png | center | 300]]
+![[frequency_domain.png | 500]]
 
 What about other term we usually here in communication; **Bandwidth**.
 
@@ -24,7 +24,7 @@ What about other term we usually here in communication; **Bandwidth**.
 
 1. Analog Bandwidth : ***Difference** between **highest** and **lowest** frequencies*
 
-![[Pasted image 20230831224318.png | center | 500]]
+![[Bandwidth.png.png|  500]]
 
 If the signal is plotted in the frequency domain, the bandwidth is trivial to compute.
 
@@ -34,7 +34,7 @@ About digital bandwidth, we will not talk about it here but you can learn more [
 
 _Baud_ rate is the measure of the number of changes to the signal (per second) that propagate through a transmission medium.
 
-![[main-qimg-87dafb7d680a112283030d2bad0d16b0-lq.jpg | center | 350]]
+![[Baud-Bitrate.jpg| center | 350]]
 
 ----
 

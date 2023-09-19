@@ -22,7 +22,7 @@ SQL or Structured Query Language is a language programming that use to manipulat
 
 SQL also has *query order*
 
-![[maxresdefault 1.jpg | center]]
+![[Database/img/maxresdefault 1.jpg| center]]
 
 ----
 ## Further Exploration
