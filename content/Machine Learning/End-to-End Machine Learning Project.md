@@ -1,6 +1,5 @@
-#machinelearning
+#machinelearning #Basic 
 
-- [f] **Level:** #Basic 
 ----
 # Working with Real Data
 

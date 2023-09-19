@@ -22,3 +22,5 @@ It's just a blog that serves as a platform for me to store and organize my notes
 My name is Toey I'm currently an undergraduate student at <a href="https://www.ku.ac.th/th">Kasetsart University</a>, pursuing my second year in Software and Knowledge Engineering. I'm relatively new to this field, so I'm constantly learning about various aspects of software engineering like web development, software design, and Data Science (although I can't claim to be good in any of those fields, 😂). However, before diving into software, I had a fondness for agriculture as my home is near a rice field so I always enjoyed delving into gardening too.
 
 At the moment, I'm actually dive into NLP, After learning about it a bit, I felt like it was cool. I love Transformer and I also love Transformer😂. Hope I good at it one day.
+
+

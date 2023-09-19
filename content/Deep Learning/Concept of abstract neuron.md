@@ -1,6 +1,5 @@
-#deeplearning 
+#deeplearning   #Intermediate 
 
-- [f] **Level :** #Intermediate 
 ----
 
 ## Water in a Sink

@@ -1,7 +1,6 @@
-#deeplearning #neuralnetwork
-
-- [f] **Level :** #Intermediate 
-----
+#deeplearning  #Intermediate 
+ 
+ ----
 
 # Introducing Neural Networks
 

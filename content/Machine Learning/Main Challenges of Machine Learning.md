@@ -1,4 +1,4 @@
-- [f] **Level :** #Basic
+ #Basic
 ----
 # Introduction
 
