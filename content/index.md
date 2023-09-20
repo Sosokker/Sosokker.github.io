@@ -19,12 +19,12 @@ Hello🙌 This is my blog that I will put most of my notes those I take in [Obsi
 [[Database Overview|🗄️ Database Overview]]
 ### Web Development
 
-[[Django Reviews|🤠 Django Cookbook]]
+[[Overview of Django|🤠 Django Deep Dive]]
 [[Network Model|🌐 Network Model]]
 
 
 ---
-## ## 🤨 How to explore and Can I trust those info?
+## 🤨 How to explore and Can I trust those info?
 
 You can explore through each topics that you interested and and search for keyword thank to [Quartz 4.0](https://quartz.jzhao.xyz/). All topics should have been listed on the right side (You can't see it on Tablet or Mobile).
 
