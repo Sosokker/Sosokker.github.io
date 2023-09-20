@@ -1,4 +1,5 @@
 ----
+
 Say you are visiting a foreign country and the taxi driver rips you off. You might be
 tempted to say that all taxi drivers in that country are thieves. *Overgeneralizing* is
 something that we humans do all too often, and unfortunately machines can fall into

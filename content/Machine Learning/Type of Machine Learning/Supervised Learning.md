@@ -1,4 +1,4 @@
-- [f] **Level:** #Intermediate
+
 ----
 
 # Introduction to Supervised Learning

@@ -1,4 +1,5 @@
 ----
+
 As you might guess, underfitting is the *opposite of* [[Overfitting the Training Data|Overfitting]]: it occurs when your
 model is *too simple to learn the underlying structure of the data*. For example, a
 linear model of life satisfaction is prone to underfit; *reality is just more complex*

@@ -1,4 +1,3 @@
-#machinelearning  #Basic
 
 ----
 ## General Definition
@@ -27,7 +26,7 @@ Traditional machine learning models rely on feature engineering, where domain ex
 [[Main Challenges of Machine Learning|You can read it here]]
 
 ### **Is NLP (Natural Language Processing) the same as machine learning?** 
-No, [[Natural Language Processing (NLP)|NLP]] and machine learning are not the same thing. [[Natural Language Processing (NLP)|NLP]] is a subfield of [[Artificial Intelligence (AI)]] that focuses on enabling computers to understand, interpret, and generate human language. It involves techniques such as text analysis, sentiment analysis, and language translation. Machine learning, on the other hand, is a broader field that encompasses various algorithms and techniques for learning from data and making predictions or decisions.
+No, [[Overview of Natural Language Processing (NLP)|NLP]] and machine learning are not the same thing. [[Overview of Natural Language Processing (NLP)|NLP]] is a subfield of [[Artificial Intelligence (AI)]] that focuses on enabling computers to understand, interpret, and generate human language. It involves techniques such as text analysis, sentiment analysis, and language translation. Machine learning, on the other hand, is a broader field that encompasses various algorithms and techniques for learning from data and making predictions or decisions.
 
  
  Next Section : [[End-to-End Machine Learning Project|Let's get started]]
