@@ -1,5 +1,5 @@
 ---
-title: Welcome to Sirin's Blog🤗
+title: Welcome to Sirin's Notes🤗
 ---
 ----
 

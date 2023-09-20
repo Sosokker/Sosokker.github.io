@@ -6,7 +6,7 @@
 	**Data communications** does not merely offer abstract theories. Instead, data communications provides a *foundation that is used to construct practical 
 	communications systems.*
 
-![[Data-Communication.png| 500]]
+![[Data-Communication.png]]
 
 ----
 ## Scope of Data Communication

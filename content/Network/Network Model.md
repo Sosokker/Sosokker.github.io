@@ -69,7 +69,7 @@ and *procedures to be followed during communication*.
 
 ----
 ## How data passes through each layer
-![[Layering.png| 500]]
+![[Layering.png]]
 Let sends data from one application to others.
 
 1. Send data

@@ -15,9 +15,9 @@ Their are 4 types of Digital-Analog Conversion
 
 ### Digital to Digital
 
-![[Digital-to-Digital.png|  400]]
+![[Digital-to-Digital.png]]
 
-![[Digital-to-Digital-2.png| 400]]
+![[Digital-to-Digital-2.png]]
 #### Unipolar Encoding (One level of value)
 
 **Unipolar encoding** is a line code(a pattern of voltage, current, or photons used to represent digital data) A *positive voltage* represents a *binary 1*, and *zero volts* indicates a *binary 0*.
@@ -38,11 +38,11 @@ Note: We will start on positive side
 	  2. **NRZ-I (inverted)** : Turn to opposite side if we found 1, otherwise, don't have to do anything                           ![[NRZ-I.png| 500]]
 2. **RZ (Return to Zero)** : Every half step go down to 0, when found 1 go up, when found 0 go down
 
-![[RZ.png| 500]]
+![[RZ.png]]
 
 3. **Biphase** 
 
-![[Biphase.png| 500]]
+![[Biphase.png]]
 
 1. **Manchester** :  There are 2 type of signal shape like in the picture, we draw it down and drag end of each shape to start of next shape.
 2. **Diff-Manc (Different Manchester)** : whenever we found 0, we will go to the other side and then come back again to the same side (Reverse Manchester shape) [VIDEO](https://www.youtube.com/watch?v=du_boiwX1yU)
@@ -53,7 +53,7 @@ Note: We will start on positive side
 
 1. **Alternate Mark Invision (AMI)** : Start at neutral level, on 0 we will stay on 0 but when found 1 if previous one (of 1) is up we will go down if down we will go up.
 
-![[AMI.png| 500]]
+![[AMI.png]]
 
 ### Concept of Modulation
 
@@ -61,9 +61,9 @@ Note: We will start on positive side
 
 Carrier signal usually has a much higher frequency than the message signal does. This is because it is impractical to transmit signals with low frequencies.
 
-![[sql-query.jpg | 500]]
+![[sql-query.jpg]]
 
-![[Amplitue_Modulation.png | 400]]
+![[Amplitue_Modulation.png]]
 ### Analog to Digital
 
 In Analog to Digital Conversion we use one form of signal modulation **Pulse-amplitude modulation** (**PAM**) where the message information is encoded in the *amplitude* of a series of signal pulses.
@@ -72,14 +72,14 @@ We have 4 steps to do the conversion
 
 1. **Pulse Amplitude Modulation(PAM)**
 
-![[PAM-1.png| 400]]
+![[PAM-1.png]]
 2. **Quantized PAM Signal** 
 
-![[PAM.png| 400]]
+![[PAM.png]]
 3. **Quantizing Using Sign and Magnitude**
 
-![[Quantizing-Sign-Magnitude.png|  400]]
-4. **Pulse Code Modulation (PCM)** ![[PCM.png| 500]]
+![[Quantizing-Sign-Magnitude.png]]
+4. **Pulse Code Modulation (PCM)** ![[PCM.png]]
 ### Digital to Analog
 
 #### Basic Concepts
@@ -89,7 +89,7 @@ We have 4 steps to do the conversion
 	- High Frequency as a basis for information
 	- Sender and Receiver agree on the frequency
 
-![[Digital-Analog.png| 400]]
+![[Digital-Analog.png]]
 
 Digital Data is *modulated (Shift Keying)* on the carrier using carrier characteristic
 - Amplitude
@@ -103,7 +103,7 @@ Digital Data is *modulated (Shift Keying)* on the carrier using carrier characte
 
 ### Analog to Analog
 
-![[Analog-Analog.png| 400]]
+![[Analog-Analog.png]]
 
 There are 3 types of Modulation
 
