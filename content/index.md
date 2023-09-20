@@ -9,18 +9,15 @@ Hello🙌 This is my blog that I will put most of my notes those I take in [Obsi
 ## 🥱 Which topics to read?
 
 ### Data Science
-[[What is Machine Learning|🤖 Machine Learning Overview]]
-[[Introduction to Pytorch|🔥 Pytorch Tutorial]]
-[[Overview of Natural Language Processing (NLP)|🗣️Natural Language Processing]]
-
----
-
-[[Overview of Data Structure and Algorithm|📄 Data Structure and Algorithm]]
-[[Database Overview|🗄️ Database Overview]]
+- [[What is Machine Learning|🤖 Machine Learning Overview]]
+- [[Introduction to Pytorch|🔥 Pytorch Tutorial]]
+- [[Overview of Natural Language Processing (NLP)|🗣️Natural Language Processing (NLP)]]
+- [[Overview of Data Structure and Algorithm|📄 Data Structure and Algorithm]]
+- [[Database Overview|🗄️ Database Overview]]
 ### Web Development
 
-[[Overview of Django|🤠 Django Deep Dive]]
-[[Network Model|🌐 Network Model]]
+- [[Overview of Django|🤠 Django Web Framework Deep Dive]]
+- [[Overview of Networking and Data Communication|🌐 Networking and Communication]]
 
 
 ---

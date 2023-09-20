@@ -4,14 +4,14 @@ title: Network Modeling
 
 ----
 
-## Protocol Suites and Layering Models
+# Protocol Suites and Layering Models
 
 We need *complete* and *efficient* result from **communications system** so a set of protocols must be constructed carefully.
 
 Each protocol should *handle a part* of communication *not handled by other protocols*.
 
 We will design protocols in *suites* or *families*: the complete, cooperative sets instead of creating each one in isolation. This make sure that protocols can work together.
-## Layering Model
+# Layering Model
 
 **Layering Model** is *fundamental abstraction* used to collect protocols into *unified whole*. 
 
@@ -19,9 +19,13 @@ It show us how can all *aspects* of a *communication problem* can be *partitione
 
 Each piece is **Layer**
 
+---
+
+# OSI Model
+
 ----
 
-## TCP/IP Example
+# TCP/IP Protocol Suite
 
 TCP/IP is one of the suite where TCP is The Transmission Control protocol and IP is The Network Protocol
 
@@ -30,7 +34,7 @@ TCP/IP in fact consists of dozens of different protocols, but only a few are the
 The _Internet Protocol (IP)_ is the primary OSI network layer (layer three) protocol that provides addressing, datagram routing and other functions in an internetwork. The _Transmission Control Protocol (TCP)_ is the primary transport layer (layer four) protocol, and is responsible for connection establishment and management and reliable data transport between software processes on devices.
 
 
-### [[Overview of Data communication|Layer 1: Physical]]
+### Layer 1: Physical
 Protocols in **Physical** Layer specify about *transmission medium and associated hardware* 
 
 - Electrical properties
