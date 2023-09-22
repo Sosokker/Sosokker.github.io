@@ -19,9 +19,9 @@ If you want to get fully and correct material, you should read [Introduction to 
 1. **Foundations**
 - [[O-notation, Ω-notation Θ-notation|Running time and O-notation, Ω-notation Θ-notation]] ⭐
 - [[Divide and Conquer]] ⭐ ✨
-	- [[Divide and Conquer#Counting Inversion|Counting Inversion]]
 	- [[Divide and Conquer#Merge Sort|Merge sort]]
 	- [[Divide and Conquer#Integer Multiplication|Integer Multiplication]]
+	- [[Divide and Conquer#Counting Inversion|Counting Inversion]]
 1. **Sorting**
 - Heapsort
 - Quicksort
