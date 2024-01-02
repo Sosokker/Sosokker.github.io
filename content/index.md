@@ -1,5 +1,6 @@
 ---
 title: Welcome to Sirin's Notes🤗
+publish: "true"
 ---
 ----
 
