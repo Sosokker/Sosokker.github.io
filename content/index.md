@@ -2,26 +2,28 @@
 title: Welcome to Sirin's Notes🤗
 publish: "true"
 ---
-----
 
-Hello🙌 This is my blog that I will put most of my notes those I take in [Obsidian](https://obsidian.md/). Feel Free to Explore👍 
+---
 
+Hello🙌 This is my blog that I will put most of my notes those I take in [Obsidian](https://obsidian.md/). Feel Free to Explore👍
 
 ## 🥱 Which topics to read?
 
 ### Data Science
+
 - [[What is Machine Learning|🤖 Machine Learning Overview]]
 - [[Introduction to Pytorch|🔥 Pytorch Tutorial]]
 - [[Overview of Natural Language Processing (NLP)|🗣️Natural Language Processing (NLP)]]
 - [[Overview of Data Structure and Algorithm|📄 Data Structure and Algorithm]]
 - [[Database Overview|🗄️ Database Overview]]
+
 ### Web Development
 
 - [[Overview of Django|🤠 Django Web Framework Deep Dive]]
 - [[Overview of Networking and Data Communication|🌐 Networking and Communication]]
 
-
 ---
+
 ## 🤨 How to explore and Can I trust those info?
 
 You can explore through each topics that you interested and and search for keyword thank to [Quartz 4.0](https://quartz.jzhao.xyz/). All topics should have been listed on the right side (You can't see it on Tablet or Mobile).
