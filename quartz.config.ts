@@ -3,7 +3,7 @@ import * as Plugin from "./quartz/plugins"
 
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🙌 Sirin Notes",
+    pageTitle: "🙌 Sirin's Note",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
@@ -30,7 +30,7 @@ const config: QuartzConfig = {
           highlight: "rgba(143, 159, 169, 0.15)",
         },
         darkMode: {
-          light: "#181a1b",
+          light: "#030711",
           lightgray: "#393639",
           gray: "#646464",
           darkgray: "#d4d4d4",

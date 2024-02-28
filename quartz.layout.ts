@@ -18,7 +18,14 @@ export const defaultContentPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
-    Component.DesktopOnly(Component.Explorer()),
+    Component.DesktopOnly(
+      Component.Explorer({
+        filterFn: (node) => {
+          // exclude files with the tag "explorerexclude"
+          return node.file?.frontmatter?.tags?.includes("aboutme") !== true
+        },
+      }),
+    ),
     Component.DesktopOnly(Component.RecentNotes({ limit: 2 })),
   ],
   right: [

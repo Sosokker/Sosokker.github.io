@@ -14,7 +14,7 @@ export default ((opts?: Options) => {
       <footer>
         <hr />
         <p>
-          Created with <a href="https://quartz.jzhao.xyz/">Quartz v{version}</a>, © {year}
+          Visit <a href="https://github.com/Sosokker/Sosokker.github.io/">Source Repository</a>
         </p>
         <ul>
           {Object.entries(links).map(([text, link]) => (
