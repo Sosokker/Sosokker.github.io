@@ -10,6 +10,7 @@ Hello! this site you'll find notes on topics I find interesting in Computer Scie
 ### 📝Notes
 #### Programming
 - [[Introduction to RISC-V|Introduction to RISC-V]]
+- [[Concurrency and Parallelism in Python]]
 ### 📚Books Summary
 #### Non-Fiction
 - [[Atomic Habits|Atomic Habits by James Clear]]
