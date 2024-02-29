@@ -53,10 +53,10 @@ Before we learn about concurrency, we need to know two important concepts: **I/O
 | **Definition** | Processes that spend most of their time waiting for input/output operations to complete. | Processes that spend most of their time performing calculations. |
 | **Bottleneck** | Speed of input/output systems (e.g., hard disks, network, user interfaces)               | Speed of the processor (CPU)                                     |
 | **Behavior**   | Frequently wait for external resources, potentially leaving the CPU idle.                | Utilize the CPU heavily, often reaching maximum usage.           |
-| **Examples**   | * Downloading/uploading large files                                                      | * Complex scientific computations                                |
-|                | * Reading data from a database                                                           | * Video encoding/decoding                                        |
-|                | * Sending network requests                                                               | * 3D graphics rendering                                          |
-|                | * Waiting for user input                                                                 | * Sorting large arrays of numbers                                |
+| **Examples**   | - Downloading/uploading large files                                                      | - Complex scientific computations                                |
+|                | - Reading data from a database                                                           | - Video encoding/decoding                                        |
+|                | - Sending network requests                                                               | - 3D graphics rendering                                          |
+|                | - Waiting for user input                                                                 | - Sorting large arrays of numbers                                |
 
 ### GIL (Global Interpreter Lock)
 
@@ -76,11 +76,11 @@ It help simplify the memory management of Python objects. Python memory manageme
 
 ### Concurrency in Python
 
-##### Multithreading
+#### Multithreading
 
 Technique where operating system switches between active threads at very high speed, giving the illusion that they are executing simultaneously
 
-###### Keywords
+##### Keywords
 
 ![[Processes.png]]
 > This picture above show us about process and thread relation
@@ -90,7 +90,7 @@ Technique where operating system switches between active threads at very high sp
 | **Thread**            | A lightweight unit of execution within a process.                                                                 |
 | **Context Switching** | The process of saving the state of one thread and restoring the state of another, allowing them to share the CPU. |
 | **Synchronization**   | Coordinating actions and timing of multiple threads to ensure proper access to shared resources.                  |
-###### Example
+##### Example
 
 This example is an **I/O-bound** with no concurrency
 
@@ -158,7 +158,7 @@ Output from **multi-threading** method take shorter time than normal sequential 
 > - [threading](https://docs.python.org/3/library/threading.html#module-threading) : threading interfaces on top of the lower level [`_thread`](https://docs.python.org/3/library/_thread.html#module-_thread "_thread: Low-level threading API.") module
 > - [concurrent.futures](https://docs.python.org/3/library/concurrent.futures.html#module-concurrent.futures) : module provides a high-level interface for asynchronously executing callables
 
-###### Threading Problems
+##### Threading Problems
 
 When thread can access to shared memory, it can bring us some problems
 
@@ -178,24 +178,26 @@ Occur when **two or more threads are each waiting for a resource** that is **cur
 
 > Imagine us and our friends both grabbing onto the same toy and refusing to let go. Two or more threads get stuck waiting for each other to release a resource, essentially freezing the program
 
-##### Coroutines
+---
+#### Coroutines
 
 [Coroutines](https://en.wikipedia.org/wiki/Coroutine) is a special kind of function whose execution can be paused and resumed multiple times. Usually, it use `async` and `await` keywords to define + handle asynchronous behavior
 
 >[!tip] Relation between subroutine and coroutine
 > Coroutines **extend the concept of subroutines** with the capability of pausing and resuming execution.
-###### Keywords
 
-| Keyword/Concept      | Definition                                         | Purpose                                                                                                                   |
+##### Keywords
+
+| Keyword              | Definition                                         | Purpose                                                                                                                   |
 | -------------------- | -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
 | **awaitable object** | An object that can be used with `await`            | Represents a task that can be asynchronously awaited and potentially yield a result.                                      |
 | **Event loop**       | An essential component in asynchronous programming | Manages the execution of coroutines, scheduling them to run and handling their pauses and resumes. (when A happens, do B) |
-###### How does `async` and `await` work?
+##### How does `async` and `await` work?
 
 `async` define a coroutine function and `await` pauses the current coroutine's execution and returns control to the event loop until the awaited task completes.
 
 For more detail, please visit [How-the-heck-does-async-await-work](https://snarky.ca/how-the-heck-does-async-await-work-in-python-3-5/)
-###### Example
+##### Example
 
 First of all, we need to install [aiohttp](https://docs.aiohttp.org/en/stable/)
 
